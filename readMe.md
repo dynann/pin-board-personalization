@@ -1,5 +1,5 @@
 ### Install Project Dependencies
---> pip install requirements.txt
+--> pip install -r requirements.txt
 
 ### Run Project 
 --> fastapi dev main.py
