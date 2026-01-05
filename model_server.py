@@ -57,7 +57,7 @@ async def vectorize_pin(file: UploadFile = File(...)):
     #get image vector
     image_vector = vector_service.vector_service.image_to_vector(image_data)
     logging.info(f"successfully vectorized pin, vector length {len(image_vector)}")
-
+    print(image_vector)
     return {
         "status": "success",
         "vector": image_vector,
